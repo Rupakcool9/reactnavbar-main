@@ -1,0 +1,153 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ */
+/* 
+           css code of footer */
+           * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Jost", sans-serif;
+            text-align: center;
+          }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  
+}
+ul{
+  list-style: none;
+  margin: 30px;
+  padding: 5px;
+}
+.container{
+  max-width: 2000px;
+  background-color: rgb(157, 157, 179);
+  margin: auto;
+  
+}
+.row{
+  display: flex;
+  flex-wrap:wrap;
+}
+.footer{
+  background-color: rgb(247, 242, 242);
+  padding: 50px;}
+
+.footer-col h2{
+  margin: 30px;
+  padding: auto;
+  font-size: 15px;
+  color: aqua;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+font-weight: 500;
+position: relative;
+}
+.footer-col ul a:hover{
+  color: brown;
+  background-color: chartreuse;
+} 
+@media (max-width: 520px) {
+  .footer {
+    height:50%;
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+    margin-bottom: 30px;
+  }}
+
+  
+.footer-col a{
+  color: black;
+}
+
+
+
+            /* /* css code of todolist */
+  .main-div{
+    width:100%;
+    height: 100vh;
+    background: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .centre-div{
+    width:25%;
+    height: 80vh;
+    background-color: rgb(224, 210, 210);
+    border-radius: 15px;
+
+  }
+  h1{
+    color: wheat;
+    background: transparent;
+    background-color: violet;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+  
+  }
+  button{
+   min-height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: turquoise;
+    background-color: yellow;
+    font-size: 30px;
+    border: none;
+    margin-left: 10px;
+
+  }
+  button:hover
+  {
+    background-color: red;
+  }
+  ol{
+    text-align: start;
+    margin-left: 10%;
+  
+  }
+  li{
+    font-size: 15px;
+  }
+  
+  .btn{
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+     }
+     .btn.clrbtn{
+       size: 22px;
+       background-color: purple;
+     }
+
+      .clrbtn{
+        position: relative;
+        margin-top: 180px;
+        border-color: seagreen;
+        background-color:pink;
+        font-size: 20px;
+        width: 90px;
+      }
+      
+
+      @media (max-width:800px) {
+        .centre-div {
+          width: 55%;
+        }}
