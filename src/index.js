@@ -9,7 +9,9 @@ import Data from "./Data";
 
 ReactDOM.render(
   <BrowserRouter>   <App />  </BrowserRouter>
-   
+  // <Todolist/>
+  
+//  <Data/> 
   
   
  , document.getElementById("root")
